@@ -8,7 +8,7 @@
 ***
 分析。。。
 
-![avatar](https://emojis.slackmojis.com/emojis/images/1471119458/990/party_parrot.gif?1471119458)
+![party-bird](https://emojis.slackmojis.com/emojis/images/1471119458/990/party_parrot.gif?1471119458)
 得到我们的解密代码：
 ```python
 import base64

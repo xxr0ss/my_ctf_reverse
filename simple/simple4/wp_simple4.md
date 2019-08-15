@@ -1,5 +1,5 @@
 **反编译**，得到：
-![avatar](decompile.png)
+![decompile](decompile.png)
 
 看到关键字符串`'437261636b4d654a757374466f7246756e'`,
 注意到line:36是字符串比较，所以这个题要找加密前的flag。
