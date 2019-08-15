@@ -27,9 +27,6 @@ pwdb = [53, 222, 230, 35, 67, 248, 226, 216,
 
 flag = ''
 
-#加密过程中 ord(flag[i]) + pwda[i] & 255 部分通过 &255 有的负数转为正数
-#如果非要倒推c == lookup[i + pwdb[i]] - pwda[i], 则chr(c)有时候无法完成
-#因为c可能是负数！！！
 for i in range(17):
     for c in range(32, 127):
         if c + pwda[i] & 255 == lookup[(i + pwdb[i])]:
@@ -43,4 +40,4 @@ print(flag)
 导出`c == lookup[i + pwdb[i]] - pwda[i]`, 则chr(c)有时候无法完成,因为
 **c可能是负数**！！！
 ***
-吐槽一下：这个`lookup[]`真长，为了排版此wp花费不少精力hhh
+吐槽一下：这个`flookup[]`真长，为了排版此wp花费不少精力hhh
