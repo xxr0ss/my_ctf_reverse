@@ -1,4 +1,4 @@
-IDA静态分析一下，<kbd>F5<kbd/>反编译  
+IDA静态分析一下，<kbd>F5</kbd>  反编译  
 ![avatar](ida_uncompile.png "反编译")  
 `unsigned __int8`一个八位的数，右移11位之多，可以判断v3==0，同理v4==0。  
 然而似乎不容易得到逆推的公式，所以索性暴力破解
