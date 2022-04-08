@@ -2,3 +2,6 @@
 *.idb
 *.i64
 *.id0
+
+.vscode/
+venv/
